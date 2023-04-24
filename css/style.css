@@ -95,6 +95,7 @@ nav ul li a {
     color: black;
     position: relative;
     top: 16px;
+    padding-top: 14px;
 }
 
 nav ul li a:hover {
