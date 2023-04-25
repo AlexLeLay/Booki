@@ -113,9 +113,59 @@ nav ul li a:hover {
     margin-top: 30px;
 }
 
-.search p {
+.headline p {
     margin-top:6px;
     font-size: 16px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    height: 49px;
+    border-radius: 15px;
+}
+
+
+form i {
+    background: var(--main-bg-color);
+    height: 34px;
+    width: 32px;
+    padding-top: 15px;
+    padding-left: 18px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+form i::before {
+    color: black;
+}
+
+form input {
+    height: 100%;
+    width: 195px;
+    text-align: center;
+    border: none;
+    padding: 0;
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    border-top: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
+}
+
+form a {
+    background: var(--main-color);
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 35px;
+    text-align: center;
+    width: 132px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 14px;
 }
 
 .filter-bar {
