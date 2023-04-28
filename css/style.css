@@ -463,11 +463,25 @@ footer ul {
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 14px;
+    }
+
+    .activites-cards img {
+        height: 200px;
+    }
+
+    .activites-cards .card-content {
+        padding: 25.5px 19px;
+        height: 70px;
+    }
+
+    .activites-cards .card:nth-child(3) .card-content
+    , .activites-cards .card:nth-child(4) .card-content {
+        padding: 16px 19px;
     }
 }
 
