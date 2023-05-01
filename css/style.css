@@ -201,6 +201,7 @@ form a {
 
 .filter-items {
     display: flex;
+    flex-wrap: wrap;
     font-size: 17px;
     font-weight: 700;
     height: 100%;
@@ -281,7 +282,7 @@ form a {
 
 
 .hebergements-cards .card {
-    width: 29.5%;
+    width: 27.7%;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -492,5 +493,57 @@ footer ul {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .main-container {
+        padding: 0;
+    }
+
+    header {
+        height: auto;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        padding: 30px;
+        width: 61px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    nav ul {
+        text-align: center;
+        justify-content: space-evenly;
+        padding-inline: 0;
+        width: 100%;
+        gap: 0;
+    }
+
+    nav ul li {
+        width: 50%;
+    }
+
+    nav ul li a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        top: 0;
+        padding-top: 0;
+        border-bottom: 1px solid var(--main-bg-color);
+    }
+
+    nav ul li a:hover {
+        border-bottom: 1px solid var(--main-color);
+        border-top: none;
+        color: var(--main-color);
+    }
+
+    .activites-cards {
+        flex-direction: column;
+    }
 }
