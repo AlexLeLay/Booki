@@ -196,7 +196,6 @@ form a:nth-of-type(2) {
     flex-direction: row;
     column-gap: 15px;
     align-items: center;
-    height: 50px;
 }
 
 .filter-title {
@@ -206,12 +205,15 @@ form a:nth-of-type(2) {
 
 .filter-items {
     display: flex;
-    flex-wrap: wrap;
     font-size: 17px;
     font-weight: 700;
-    height: 100%;
     column-gap: 15px;
     align-items: center;
+}
+
+.row-1, .row-2 {
+    display: flex;
+    column-gap: 15px;
 }
 
 .filter-items a {
@@ -239,10 +241,13 @@ form a:nth-of-type(2) {
 }
 
 .info-bar p {
+    width: 95%;
+    position: relative;
     left: 34px;
 }
 
 .info-circle {
+    position: absolute;
     height: 24px;
     width: 24px;
     border-radius: 50%;
@@ -587,6 +592,36 @@ footer ul {
 
     .filter-bar {
         flex-wrap: wrap;
+    }
+
+    .filter-title {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .filter-items {
+        flex-wrap: wrap;
+        font-size: 14px;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+
+    .row-1, .row-2 {
+        column-gap: 10px;
+    }
+
+    .filter-items a {
+        width: 162.5px;
+        padding-inline: 0;
+    }
+
+    .filter-items i {
+        font-size: 22px;
+        padding-left: 22px;
+    }
+
+    .item {
+        margin-left: 10px;
     }
 
     /*  */
