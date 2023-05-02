@@ -147,11 +147,13 @@ nav ul li a:hover {
 }
 
 form {
+    width: fit-content;
     display: flex;
     align-items: center;
     height: 49px;
     border-radius: 15px;
-    border: 1px solid var(--main-bg-color);
+    border-block: 1px solid var(--main-bg-color);
+    border-left: 1px solid var(--main-color);
 }
 
 
