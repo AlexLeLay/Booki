@@ -297,14 +297,13 @@ form a:nth-of-type(2) {
 
 .hebergements-cards {
     display: flex;
-    flex-direction: row;
     flex-flow: wrap;
-    column-gap: 30px;
+    column-gap: clamp(0.938rem, -1.37rem + 3.6vw, 1.875rem);
 }
 
 
 .hebergements-cards .card {
-    width: 27.7%;
+    width: 29.634%;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -472,6 +471,10 @@ footer ul {
 
     .hebergements {
         width: 100%;
+    }
+
+    .hebergements-cards {
+        column-gap: clamp(1.1726rem, -0.935rem + 4.39vw, 1.875rem);
     }
 
     .populaires {
